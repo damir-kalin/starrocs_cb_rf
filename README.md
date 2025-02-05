@@ -186,7 +186,7 @@ curl --location-trusted -u root:12345 -H "label:123" \
     -H "skip_header:1" \
     -H "enclose:\"" \
     -H "columns: n, value, dt_value" \
-    -T 2024.csv -XPUT \
+    -T exchange_rates.csv -XPUT \
     http://localhost:8030/api/stg/exchange_rates/_stream_load
 ``` 
 - Проверяем наличие данных в слое stg:
