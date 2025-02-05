@@ -103,7 +103,7 @@ docker network connect superset_default srpro-allin1-ubuntu
 ```
 Чтобы подключиться к StarRocks Pro в DBeaver необходимо заполнить поля для подключения как на скриншоте:
 <p align="center">
-<img src="source/screens/dbeaver_connect.png" width="1200" height="800"/>
+<img src="source/screens/dbeaver_connect.png" width="800" height="500"/>
 </p>
 
 ## Разработка
@@ -194,17 +194,17 @@ curl --location-trusted -u root:12345 -H "label:123" \
 SELECT * FROM stg.exchange_rates er;
 ```
 <p align="center">
-<img src="source/screens/current_stg.png" width="1400" height="1000"/>
+<img src="source/screens/current_stg.png" width="900" height="630"/>
 </p>
 
 - Переходим в браузере на http://localhost:8088, входим под пользователем admin в Apache Superset.
 - Переходим в раздел Settings, затем в Database Connections.
 <p align="center">
-<img src="source/screens/add_connections.png" width="1200" height="500"/>
+<img src="source/screens/add_connections.png" width="900" height="430"/>
 </p>
 - Нажимаем на кнопку +DATABASE.
 <p align="center">
-<img src="source/screens/add_connections_2.png" width="1200" height="360"/>
+<img src="source/screens/add_connections_2.png" width="900" height="300"/>
 </p>
 - Добавляем соединение.
 
@@ -220,5 +220,5 @@ starrocks://root:@srpro-allin1-ubuntu:9030/default_catalog.dm
 - Пример дашборда в Apache Superset:
 
 <p align="center">
-<img src="source/screens/dashbord.png" width="1200" height="850"/>
+<img src="source/screens/dashbord.png" width="900" height="650"/>
 </p>
